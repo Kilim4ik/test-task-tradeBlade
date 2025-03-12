@@ -1,0 +1,29 @@
+@use "@styles/variables.scss" as *;
+.nav {
+  display: flex;
+}
+.header__nav {
+  display: none;
+}
+.modal-burger-menu__nav {
+  position: relative;
+  height: 100%;
+  flex-direction: column;
+  padding: 16px;
+  & ul {
+    margin-top: 84px;
+    flex-direction: column;
+  }
+  & .nav-list__button-container {
+    left: 16px;
+    right: 16px;
+    & button {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: $not-modal-burger-menu) {
+  .header__nav {
+    display: flex;
+  }
+}

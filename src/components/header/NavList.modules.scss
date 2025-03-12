@@ -1,0 +1,29 @@
+@use "@styles/variables.scss" as *;
+.nav-list {
+  display: flex;
+  gap: 32px;
+  &__link {
+    text-transform: uppercase;
+    color: $main-txt-color;
+    opacity: 0.6;
+  }
+  &__button-container {
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    bottom: 16px;
+  }
+}
+@media (min-width: $not-modal-burger-menu) {
+  .nav-list {
+    align-items: center;
+
+    &__button-container {
+      margin-left: 82px;
+      position: initial;
+    }
+    &__button-container {
+      gap: 12px;
+    }
+  }
+}

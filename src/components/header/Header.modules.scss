@@ -1,0 +1,14 @@
+@use "@styles/variables.scss" as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  &__nav {
+    display: none;
+    & .nav-list__button-container {
+      flex-direction: row-reverse;
+    }
+  }
+}

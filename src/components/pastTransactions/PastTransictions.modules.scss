@@ -1,0 +1,43 @@
+@use "@styles/variables.scss" as *;
+
+.past-transactions {
+  &__container {
+    min-width: 100%;
+    margin: 0;
+    padding: 48px 0 53px 16px;
+  }
+  &__status {
+    margin-left: 11px;
+    margin-top: 2px;
+    &::before {
+      position: relative;
+      left: -11px;
+      top: 12.5px;
+      display: block;
+      content: "";
+      width: 7px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      background-color: var(--status-color);
+    }
+  }
+  &__image {
+    width: 100%;
+  }
+}
+.carousel {
+  margin-top: 24px;
+  scrollbar-color: #35ff9e #f1f1f1;
+}
+.swiper-scrollbar {
+  transform: translateY(16px);
+  // bottom: -16px !important;
+  // background: #434f70 !important;
+}
+@media (min-width: $desktop) {
+  .past-transactions {
+    &__container {
+      padding: 96px 0 118px 80px;
+    }
+  }
+}

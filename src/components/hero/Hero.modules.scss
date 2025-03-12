@@ -1,0 +1,63 @@
+@use "@styles/variables.scss" as *;
+
+.hero {
+  &-section {
+    padding-bottom: 37px;
+  }
+  &__image {
+    margin-top: 40px;
+    display: block;
+    width: 87.45%;
+    height: auto;
+  }
+  &__title {
+    margin-top: 33px;
+  }
+  &__text {
+    margin-top: 12px;
+  }
+  &__clue {
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .hero {
+    &-section {
+      &__container {
+        display: flex;
+        gap: 20px;
+      }
+    }
+    &__image {
+      min-width: 350px;
+      max-width: 469px;
+    }
+  }
+}
+@media (min-width: $desktop) {
+  .hero {
+    &-section {
+      padding: 160px 0 134px;
+      &__container {
+        gap: 0;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+      }
+    }
+    &__content {
+      width: 630px;
+    }
+    &__title {
+      margin: 0;
+    }
+    &__text {
+      display: block;
+      width: 565px;
+    }
+    &__image {
+      margin: 0;
+      width: 469px;
+    }
+  }
+}
