@@ -7,12 +7,12 @@ export const Hero = () => {
       <div className="container hero-section__container">
         <picture>
           <source
-            srcset="./src/assets/images/hero-card-1x.png 1x, ./src/assets/images/hero-card-2x.png 2x, ./src/assets/images/hero-card-3x.png 3x"
+            srcset="./images/hero-card-1x.png 1x, ./images/hero-card-2x.png 2x, ./images/hero-card-3x.png 3x"
             type="image/png"
           />
           <img
             className="hero__image"
-            src="./src/assets/images/hero-card-1x.png"
+            src="./images/hero-card-1x.png"
             alt="card with price of ethereum"
           />
         </picture>

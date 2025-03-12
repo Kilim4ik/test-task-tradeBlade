@@ -6,33 +6,33 @@ import "./PastTransictions.modules.scss";
 const arr = [
   {
     name: "last transiction",
-    url: "./src/assets/images/transiction.png",
-    urlX2: "./src/assets/images/transiction-2x.png",
-    urlX3: "./src/assets/images/transiction-3x.png",
+    url: "/images/transiction.png",
+    urlX2: "./images/transiction-2x.png",
+    urlX3: "./images/transiction-3x.png",
   },
   {
     name: "last transiction",
-    url: "./src/assets/images/transiction.png",
-    urlX2: "./src/assets/images/transiction-2x.png",
-    urlX3: "./src/assets/images/transiction-3x.png",
+    url: "./images/transiction.png",
+    urlX2: "./images/transiction-2x.png",
+    urlX3: "./images/transiction-3x.png",
   },
   {
     name: "last transiction",
-    url: "./src/assets/images/transiction.png",
-    urlX2: "./src/assets/images/transiction-2x.png",
-    urlX3: "./src/assets/images/transiction-3x.png",
+    url: "./images/transiction.png",
+    urlX2: "./images/transiction-2x.png",
+    urlX3: "./images/transiction-3x.png",
   },
   {
     name: "last transiction",
-    url: "./src/assets/images/transiction.png",
-    urlX2: "./src/assets/images/transiction-2x.png",
-    urlX3: "./src/assets/images/transiction-3x.png",
+    url: "./images/transiction.png",
+    urlX2: "./images/transiction-2x.png",
+    urlX3: "./images/transiction-3x.png",
   },
   {
     name: "last transiction",
-    url: "./src/assets/images/transiction.png",
-    urlX2: "./src/assets/images/transiction-2x.png",
-    urlX3: "./src/assets/images/transiction-3x.png",
+    url: "./images/transiction.png",
+    urlX2: "./images/transiction-2x.png",
+    urlX3: "./images/transiction-3x.png",
   },
 ];
 export const Carousel = () => {
