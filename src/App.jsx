@@ -6,6 +6,7 @@ import { Hero } from "./components/hero/Hero";
 import { Numbers } from "./components/numbers/Numbers";
 import { PastTransactions } from "./components/pastTransactions/PastTransictions";
 import { AboutUs } from "./components/aboutUs/AboutUs";
+import { Tariffs } from "./components/tariffs/Tariffs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Numbers />
         <PastTransactions />
         <AboutUs />
+        <Tariffs />
       </main>
     </>
   );
